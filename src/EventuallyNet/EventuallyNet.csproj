@@ -1,6 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>EventuallyNet</PackageId>
+    <PackageVersion>0.1</PackageVersion>
+    <Title>Eventually is a library for integration tests inspired by Scalatest Eventually</Title>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>integration-testing waiting eventually</PackageTags>
+    <Description>Integration tests are tests when sometime you need to wait some event. Sometime you need to wait alot. For example selenium tests mainly consists of waiting. Scalatest eventually is the most useful library it that case and the porpose of this project is to port is to dotnet.</Description>
+    <PackageLicenseUrl>https://github.com/Pravoru/EventuallyNet/blob/master/License.md</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Pravoru/EventuallyNet</PackageProjectUrl>
+    <Copyright>2017 Pravo.ru</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Polly" Version="5.3.1" />
