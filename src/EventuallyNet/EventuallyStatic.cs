@@ -1,8 +1,8 @@
-﻿namespace EventuallyNet
-{
-    using System;
-    using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 
+namespace EventuallyNet
+{
     public static class EventuallyStatic
     {
         public static TResult Eventually<TResult>(Func<TResult> function, PatienceConfig patienceConfig = null)

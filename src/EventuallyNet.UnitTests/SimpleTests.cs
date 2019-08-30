@@ -1,12 +1,11 @@
 ﻿using static EventuallyNet.EventuallyStatic;
+using NUnit.Framework;
+using System;
+using System.Threading.Tasks;
+using Shouldly;
 
 namespace EventuallyNet.UnitTests
 {
-    using System;
-    using System.Threading.Tasks;
-    using NUnit.Framework;
-    using Shouldly;
-
     [TestFixture]
     public class SimpleTests
     {

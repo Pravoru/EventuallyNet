@@ -1,10 +1,10 @@
-﻿namespace EventuallyNet
-{
-    using System;
-    using System.Threading.Tasks;
-    using Polly;
-    using Polly.Wrap;
+﻿using System;
+using System.Threading.Tasks;
+using Polly;
+using Polly.Wrap;
 
+namespace EventuallyNet
+{
     public class EventuallyClass
     {
         private readonly PatienceConfig _patienceConfig;
